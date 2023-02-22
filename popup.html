@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Stay Productive</title>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Stay Productive</h1>
+    <form>
+        <label for="duration">Duration (minutes):</label>
+        <input type="number" id="duration" min="1" value="25">
+        <br><br>
+        <label for="websites">Distracting Websites:</label>
+        <textarea id="websites"></textarea>
+        <br><br>
+        <button id="start">Start Timer</button>
+        <button id="pause" disabled>Pause Timer</button>
+    </form>
+    <script src="popup.js"></script>
+</body>
+
+</html>
